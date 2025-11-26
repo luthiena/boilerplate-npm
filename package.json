@@ -1,7 +1,8 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"version": "1.0.0",
-	"description": "This is the boilerplate code for the Managing Packages With npm Challenges. Instructions for working on these challenges start at https://www.freecodecamp.org/learn/back-end-development-and-apis/managing-packages-with-npm/",
+	"description": "This is to help me learn boilerplate code for the Managing Packages With npm Challenges.",
+	"keywords": ["freeCodeCamp", "npm", "boilerplate"],
 	"homepage": "https://github.com/freeCodeCamp/boilerplate-npm#readme",
 	"bugs": {
 		"url": "https://github.com/freeCodeCamp/boilerplate-npm/issues"
@@ -10,7 +11,7 @@
 		"type": "git",
 		"url": "git+https://github.com/freeCodeCamp/boilerplate-npm.git"
 	},
-	"license": "ISC",
+	"license": "MIT",
 	"author": "Andrea Dover",
 	"type": "commonjs",
 	"main": "server.js",
@@ -18,6 +19,6 @@
 		"start": "node server.js"
 	},
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.21.2"
 	}
 }
